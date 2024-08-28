@@ -1,0 +1,440 @@
+*{
+  padding: 0;
+  margin: 0;
+}
+
+body,h3 {
+  font-family: "Raleway", sans-serif;
+  background-color: white(0, 0, 0);
+  color: #ffffff;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  position: relative;
+  height: 470px;
+}
+
+.background{
+  position: relative;
+  width: 100%;
+  height: 470px;
+  overflow: hidden;
+}
+
+.background img{
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transform: scale(1.1);
+}
+
+.Header-body{
+  position: absolute;
+  top:0;
+  width: 100%;
+  color: #ffffff;
+}
+
+.nav{
+  height: 70px;
+}
+
+.Container{
+  width: 80%;
+  margin: auto;
+}
+
+.Container-nav
+{
+  display: flex;
+  justify-content: space-between;
+}
+
+.Logo{
+  display: flex;
+  align-items: center;
+}
+
+.Logo a{
+  padding: 5px;
+}
+
+.nav ul{
+  list-style: none;
+  display: flex;
+}
+
+.nav ul li{
+  padding: 5px 5px;
+  margin-right: 25px;
+  font-size: 20px;
+  font-weight: 430;
+}
+
+a{
+  color: inherit;
+  text-decoration: none;
+}
+
+.Zomato-Logo{
+  width: 300px;
+  height: 80px;
+}
+
+.Container-head{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  flex-direction: column;
+}
+
+.header-body-content{
+  position: relative;
+  top: 50px;
+}
+
+.Container-head p{
+  font-size: 37px;
+  font-weight: 400;
+  margin: 25px 0;
+}
+
+.Search{
+  background-color: rgb(255, 255, 255);
+  width: 100%;
+  height: 50px;
+  max-width: 770px;
+  border-radius: 7px;
+  display: flex;
+  align-items: center;
+}
+
+.fa-location-dot{
+  color: #ff7e8b;
+  font-size: 23px;
+  padding-left: 15px;
+}
+
+.fa-caret-down{
+  color: #4f4f4f;
+  font-size: 20px;
+}
+
+.Dedect{
+  padding: 0px 10px;
+}
+
+.Dedect input{
+  border: none;
+  font-size: 15px;
+  font-weight: 100px;
+  outline: none;
+}
+
+.line,.Search-Item{
+  padding: 0px 10px;
+  color: #4f4f4f;
+}
+
+.Search-Item input{
+  padding: 0px 10px;
+  border: none;
+  color: #4f4f4f;
+  font-size: 16px;
+  font-weight: 10px;
+  width: 400px;
+  max-width: 100%;
+  outline: none;
+}
+
+.center_div{
+  margin: 0px 12%;
+}
+
+.Items img{
+  flex-direction: row;
+  height: 240px;
+  width: 530px;
+  object-fit: cover;
+}
+
+.Items{
+  justify-content: space-between;
+  padding-top: 40px;
+  position: relative;
+  display: flex;
+}
+
+.Items h3{
+  color: black;
+}
+
+.Item1{
+  border-radius: 10px;
+  overflow: hidden;
+  position: relative;
+}
+
+.item_details{
+  padding: 1rem 2rem 1.6rem;
+  width: 100%;
+  position: absolute;
+  bottom: 0px;
+  left: 0px;
+  background: white;
+  border: 1px solid rgb(232, 232, 232);
+  border-radius: 0px 0px 1.2rem 1.2rem;
+  box-sizing: border-box;
+}
+
+.Collection1{
+  position: relative;
+  top: 70px;
+}
+
+.Collection1 div{
+  color: #000;
+}
+
+.Collection1 div h1,.Explore,.CBE{
+  max-width: 100%;
+  top:100px;
+  left: 100px;
+  font-weight: 500;
+}
+
+.Explore{
+  font-size: 17px;
+  font-weight: 300;
+}
+
+.all{
+  display:flex ;
+  justify-content: space-between;
+}
+
+.CBE{
+  display: inline-flex;
+  background-color: transparent;
+  cursor: pointer;
+  border-radius: 0.4rem;
+  color: rgb(224, 53, 70);
+}
+
+.all{
+  display: flex;
+  padding-bottom: 100px;
+}
+
+.photo{
+  height: 290px;
+  width: 263px;
+  object-fit: cover;
+  border-radius: 8px;
+}
+
+.Collected_Restaurant{
+  display: flex;
+  justify-content: space-between;
+}
+
+.Collected_list{
+  color: #000;
+}
+.photos{
+  position: relative;
+}
+.res{
+  position: relative;
+  bottom: 50px;
+  left: 14px;
+  color: #ffffff;
+}
+
+.count{
+  font-size: 15px;
+  position: relative;
+  bottom: 50px;
+  font-weight: 1;
+  left: 14px;
+  color: #ffffff;
+}
+
+.Popular_Place{
+  color:#000 ;
+  font-weight: 100;
+  padding-bottom: 20px;
+}
+
+.Popular_list{
+  padding: 15px 0px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.List_1{
+  height: 65px;
+  width: 343px;
+  color: #000;
+  font-weight: 100;
+  border-radius: 10px;
+  border: 1px solid rgb(232, 232, 232);
+}
+
+.Popular_Count{
+  font-size: 15px;
+  font-weight: 450;
+  color: #000;
+  padding: 15px 0px 6px 0px;
+  padding-left: 20px;
+}
+
+ .Place_Count{
+  padding-left: 20px;
+  font-weight: 300;
+}
+
+.Place_Count{
+  font-size: 12px;
+  color: #4f4f4f;
+}
+
+.after{
+  width: 100%;
+  padding: 65px 0px;
+  color: #000;
+  background-color: #fffbf7;
+  display: flex;
+}
+.after h1{
+  font-size: 40px;
+  font-weight: 600;
+}
+
+.after img{
+  position:relative;
+  left: 350px;
+  height: 300px;
+  width: 300px;
+}
+
+.after h5{
+  padding: 10px 1px;
+  padding-bottom: 40px;
+}
+
+.con{
+  position:relative;
+  left: 400px;
+}
+
+.ip{
+  display: flex;
+}
+
+.ip_1{
+  padding-right: 50px;
+}
+
+.Submit{
+  padding: 20px 0px;
+}
+
+.text_box{
+  height: 35px;
+  width: 250px;
+  border-radius: 5px;
+  padding-left: 15px;
+  border: 1px solid black;
+}
+
+.button-box {
+  padding: 10px 20px;
+  font-size: 16px;
+  color: white;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 5px;
+  background-color: rgb(239, 79, 95);
+}
+
+.app_store{
+  position: relative;
+  top: 10px;
+  right: 350px;
+  display: flex;
+  height: 10px;
+  width: 10px;
+}
+
+.app_store1{
+  padding-right: 20px;
+  max-width: 160px;
+  max-height:40px;
+}
+
+.near{
+  color: #000;
+  font-size: 40px;
+  font-weight: 400;  
+}
+
+.near_me{
+  border: 1px solid #bdb6b6;
+  border-radius: 6px;
+  margin-top: 20px;
+}
+
+.near_option{
+  color: #000;
+  font-size: 22px;
+  font-weight: 400;
+  padding: 17px ;
+}
+
+.White_space{
+  margin-bottom: 50px;
+}
+
+.colour{
+  background-color: #f8f8f8;
+}
+
+.divide img{
+  margin-top: 20px;
+  top: 40px;
+  height: 30px;
+  width: 120px;
+}
+
+.all{
+  color: #000;
+}
+
+.headline{
+  font-size: 15px;
+  font-weight: 600;
+  padding-bottom: 5px;
+}
+
+.about{
+  display: flex;
+  flex-direction: column;
+}
+
+.aboutline{
+  padding: 5px 0px;
+  color: #737272;
+}
+
+.Finally{
+  position: relative;
+  bottom: 20px;
+  color: #4f4f4f;
+  font-size: 15px;
+  padding: 10px 0px;
+  margin-bottom: 40px;
+}
